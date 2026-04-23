@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halam Multimedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-container">
+        <h1 class="main-title">Halaman Multimedia</h1>
+        <p class="subtitle">Tersaji beberap video dan audio di halam ini yang mungkin melengkapi form ini</p>
+        
+        <div class="card photo-card">
+            <picture id="catPhoto">
+                <source media="(max-width: 600px)" srcset="luna_potrait.jpg">
+                <img src="pc.jpg" alt="Foto PC" class="cat-image">
+            </picture>
+            <p class="caption">"Salah satu pc milik anggota kami"</p>
+        </div>
+
+        <div class="card audio-card">
+            <h2></h2>
+            <audio id="catMeow" controls>
+                <source src="kucing.mp3" type="audio/mpeg">
+            </audio>
+            <p class="caption">"Ini suara kucing yangs sering berkeliaran di lingkungan kai"</p>
+        </div>
+
+        <div class="card video-card">
+            <h2></h2>
+            <video id="catVideo" controls poster="luna_video_poster.jpg">
+                <source src="Anggris.mp4" type="video/mp4">
+            </video>
+            <p class="caption">"Salah satu video Anggota kami"</p>
+         <div class="btn">
+            <a href="index.html">Kembali Halaman Utama</a>
+        </div>
+
+    <script src=""></script>
+</body>
+</html>
